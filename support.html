@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Triviana</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #16181d; --muted: #5c6370;
+    --line: #e3e6ea; --accent: #6b4bd6; --card: #f7f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a0015; --fg: #eceef2; --muted: #a2a8b6;
+      --line: #24203a; --accent: #b9a6ff; --card: #140c26;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 3rem 1.25rem 5rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .7rem; letter-spacing: -.01em; }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2.2rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  .contact {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: 1.25rem 1.4rem; margin: 1.4rem 0 .5rem;
+  }
+  .contact .label {
+    display: block; font-size: .8rem; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--muted); margin-bottom: .35rem;
+  }
+  .contact a { font-size: 1.15rem; font-weight: 600; }
+  dt { font-weight: 600; margin-top: 1.1rem; }
+  dd { margin: .25rem 0 0; color: var(--fg); }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Triviana Support</h1>
+  <p class="updated">Questions, problems, or feedback &mdash; we read everything.</p>
+
+  <div class="contact">
+    <span class="label">Email us</span>
+    <a href="mailto:SUPPORT_EMAIL_HERE">SUPPORT_EMAIL_HERE</a>
+  </div>
+  <p style="color:var(--muted); font-size:.92rem;">
+    We aim to reply within a few days. Telling us your device model and what you were doing when the
+    problem happened makes it much faster to sort out.
+  </p>
+
+  <h2>Common questions</h2>
+  <dl>
+
+    <dt>I paid for the full version but it is still locked.</dt>
+    <dd>
+      Open the unlock screen and tap <strong>Restore purchase</strong>. That re-checks your purchase
+      with the App Store. Make sure you are signed in with the same Apple Account you bought it with.
+      If it still does not unlock, email us.
+    </dd>
+
+    <dt>Do I have to pay again on my other device?</dt>
+    <dd>
+      No. The unlock is a one-time purchase tied to your Apple Account. Install the app on the other
+      device, then tap <strong>Restore purchase</strong>.
+    </dd>
+
+    <dt>Does the game work offline?</dt>
+    <dd>
+      Yes, once it has loaded its questions the first time. Some questions use images or audio, and
+      those need a connection.
+    </dd>
+
+    <dt>A question looks wrong, or the answer is incorrect.</dt>
+    <dd>
+      Please tell us &mdash; send the category and the question wording and we will fix it. Questions
+      are updated from our server, so corrections reach you without an app update.
+    </dd>
+
+    <dt>How do I turn off analytics?</dt>
+    <dd>
+      Open <strong>Settings</strong> and switch analytics off. See our
+      <a href="./privacy.html">privacy policy</a> for exactly what is collected and why.
+    </dd>
+
+    <dt>A category says "Coming soon".</dt>
+    <dd>
+      That category has no questions in it yet. New content is added regularly and arrives
+      automatically &mdash; no app update needed.
+    </dd>
+
+    <dt>How do I delete my data?</dt>
+    <dd>
+      The app has no accounts and stores nothing that identifies you. Uninstalling removes everything
+      the app kept on your device, including team avatars and the random identifier used for
+      anonymous statistics.
+    </dd>
+
+  </dl>
+
+  <footer>
+    Triviana &middot; <a href="./">Home</a> &middot; <a href="./privacy.html">Privacy Policy</a>
+  </footer>
+
+</main>
+</body>
+</html>
